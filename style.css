@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  list-style: none;
+}
+
+/* Variables */
+
+:root {
+  --primary-color: #ff5959;
+}
+
+/* Predefined styles */
+
+.btn-primary {
+  font-size: 20px;
+  background-color: var(--primary-color);
+  border: none;
+  color: #fff;
+  padding: 16px 21px;
+  border-radius: 5px;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: #707070;
+}
+/* Header  */
+
+header {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgba(8, 182, 37, 0.3)
+    ),
+    url("./images/donation13.jpg");
+  background-repeat: no-repeat;
+  width: 1140px;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.header-text {
+  width: 826px;
+  color: #fff;
+  margin: 0 auto;
+  padding: 175px 0;
+  text-align: center;
+}
+.header-text h2 {
+  font-size: 65px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.header-text p {
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+/* Main */
+/* Donate today section */
+.donate-today {
+  width: 765px;
+  margin: 130px auto;
+
+  text-align: center;
+}
+
+.donate-today h2 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.amount {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 0 60px 0;
+}
+
+.amount h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #707070;
+}
+
+.amount h3:nth-child(2) {
+  background-color: #ffeeee;
+  border: 2px solid var(--primary-color);
+  border-radius: 5px;
+  padding: 43px 23px;
+}
+
+.other-amount input {
+  width: 100%;
+  outline: none;
+  text-align: center;
+  border: none;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: Poppins;
+  margin-bottom: 10px;
+}
+
+.other-amount input::placeholder {
+  opacity: 0.5;
+}
+
+.donate-today button{
+    margin-top: 30px;
+}
